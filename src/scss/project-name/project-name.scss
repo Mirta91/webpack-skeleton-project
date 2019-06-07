@@ -1,0 +1,12 @@
+/*
+glavni scss fajl od samog projekta
+tu treba include-ati sve ostale scss-ove
+zamijeniti naziv fajla i foldera "project-name" sa nazivom projekta
+zamijeniti i ime @import project-name.scss u glavnom .js fajlu
+*/
+
+//stilovi specificni za projekt
+@import 'base/base';
+@import 'components/components';
+@import 'modules/modules';
+@import 'templates/templates';

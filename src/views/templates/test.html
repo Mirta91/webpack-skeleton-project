@@ -1,0 +1,11 @@
+<!-- test page (izbrisati) -->
+<div data-onload-module="yes" data-module="test-module" >
+    <%= require('html-loader?interpolate!./../components/test.header.html') %>
+
+    <h1>this is test page</h1>
+
+    <%= require('html-loader?interpolate!./../components/test.footer.html') %>
+
+    <img src="${require('../../img/nodejs.png')}" alt="">
+
+</div>

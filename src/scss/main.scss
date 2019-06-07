@@ -1,0 +1,18 @@
+/*
+glavni scss fajl
+- include core stilove (bootstrap itd)
+- include baznih module stilova
+- include specificnih stilova za projekt
+*/
+
+/*import baznih stilova od modula*/
+@import 'modules/modules';
+
+/*import specificnih stilova od projekta*/
+@import 'project-name/project-name';
+
+
+
+/*ovo je samo scss za webpack test page
+moze se izbrisati kad se pocne koristiti projekt*/
+@import 'test-page';
